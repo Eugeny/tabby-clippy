@@ -1,0 +1,11 @@
+h3 Clippy
+
+.form-line
+    .header
+        .title Agent type
+        .description Select agent appearance
+    select.form-control(
+        [(ngModel)]='config.store.clippyPlugin.agent',
+        (ngModelChange)='config.save()'
+    )
+        option([ngValue]='agent', *ngFor='let agent of agents') {{agent}}
