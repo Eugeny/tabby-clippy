@@ -28,7 +28,7 @@
     "apply-loader": "^2.0.0",
     "clippyjs": "^0.0.3",
     "css-loader": "^5.1.1",
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.0",
     "pug": "^2.0.3",
     "pug-loader": "^2.4.0",
     "rxjs": "^7.3.0",
